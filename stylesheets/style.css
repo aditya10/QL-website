@@ -2734,7 +2734,8 @@ footer .widget_recent-courses ul li .review-rating .flat-reviews {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;*/
-	background-color: #E7E7E7;
+	background-color: #FFF;
+	border-bottom: 1px solid #efefef;
    	text-align: center;
 	padding: 40px;
 }
