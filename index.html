@@ -30,7 +30,7 @@
 
     <!-- Theme Style -->
     <link rel="stylesheet" type="text/css" href="stylesheets/shortcodes.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css?id=2">
 
 
     <!-- Responsive -->
@@ -118,13 +118,21 @@
 		
 
 		
-		<div class="hero-img">
-			<span class="helper-hero"></span><img src="../images/index/header.png">
+		<div id="hero" class="hero-img">
+			<!-- <span class="helper-hero"></span><img src="../images/index/header.png"> -->
+			<div class="helper-hero">
+				<video autoplay muted loop id="headerVid">
+  				<source src="images/index/quantumleap.mp4" type="video/mp4">
+			</video>
+			</div>
 		</div>
 		
-		<div class="mission-text">
-    			<h1>Creating 21<sup>st</sup> Century Professionals & Leaders</h1>
-  			</div>
+		<div id="mission" class="mission-text">
+			<span><h1>Creating 21<sup>st</sup> Century Professionals & Leaders</h1></span>
+			<img src="images/index/scroll.gif">
+  		</div>
+		
+		
 
             <div class="flat-row course row-bg">
                 <div class = "container">
@@ -154,7 +162,7 @@
 							<img src="images/index/head-side-1.jpg" />  
 							<br>
 							<br>
-							<img src="images/index/head-side-2.jpg" />
+							<img src="images/index/header.png" />
                         </div>                    
 
                     </div>
@@ -686,6 +694,15 @@
     <script type="text/javascript" src="javascript/jquery.cookie.js"></script>
     <script type="text/javascript" src="javascript/jquery-validate.js"></script>     
     <script type="text/javascript" src="javascript/main.js"></script>
+	<script>
+			function startup(){
+				var headerht = $("#header").height();
+				var total = $(window).height() - headerht;
+				$("#hero").height(total*0.85);
+				$("#mission").height(total*0.15);
+			}
+				document.onload = startup();
+		</script>
 
 	<!-- Revolution Slider -->
     <script type="text/javascript" src="javascript/jquery.themepunch.tools.min.js"></script>
