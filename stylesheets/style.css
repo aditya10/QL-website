@@ -1613,7 +1613,18 @@ div#header-sticky-wrapper {
 /* Blog
 ---------------------------------------------------------------- */
 .main-content {
-    padding: 100px 0;
+    padding: 20px 0;
+}
+
+.go-back{
+	color: #E37222;
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.top-divider{
+	border-color: #E37222 !important;
 }
 
 .blog-posts .blog-title-single h1,
@@ -1629,7 +1640,7 @@ div#header-sticky-wrapper {
 
 .blog-posts .blog-title-single h1 {
 	text-transform: none;
-	margin-bottom: 35px;
+	margin-bottom: 20px;
 }
 
 .blog-posts .blog-title h1:before {
@@ -1747,6 +1758,13 @@ article.post .entry-meta p {
 	height: 2px;
 	content: "";
 	background-color: #333;
+}
+
+.feature-image{
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	max-height: 300px;
 }
 
 .main-content.blog-posts .entry-meta.style1 span {
@@ -1873,16 +1891,15 @@ article.post .entry-meta p {
     overflow: hidden;
 }
 
-.wrap-share .share-post ul li a:hover,
-.wrap-share .share-post ul li:first-child a {
-    color: #E37222;
+.wrap-share .share-post ul li a:hover {
+    color: #666666;
 }
 
 .wrap-share .share-post ul li a {
     font-family: "FontAwesome";
+	color: #E37222;
     font-size: 18px;
     line-height: 23px;
-    color: #999;
     float: left;
     padding-right: 18px;
     display: inline-block;
