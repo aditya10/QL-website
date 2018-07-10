@@ -1411,6 +1411,10 @@ ul.curriculum li ul.section-content li.course-lesson .question:before {
     box-shadow: 0px 2px 0px 0px rgba(229, 229, 229, 1);
     line-height: 22px;
 }
+.flat-hover-zoom:hover .content{
+    border-color: #E37222;
+}
+
 
 .flat-teacher .content h4 {
     margin-bottom: 17px;
