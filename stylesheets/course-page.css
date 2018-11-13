@@ -1,0 +1,165 @@
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+p, li {
+  color: black;
+}
+.title h1{
+  color: #E37222;
+}
+
+.course-header{
+  position: sticky;
+}
+.course-header .title {
+  float: left;
+}
+
+.course-header .title h1 {
+  font-size: 28px;
+}
+
+.course-header .logos{
+  max-height: 120px;
+}
+.course-header .logos img{
+  max-height: 120px;
+}
+
+.hero-img{
+  display: block;
+}
+
+.hero-img img {
+  transform: translateY(0%);
+  animation: none !important;
+}
+
+.logos img{
+  margin-top: 20px;
+}
+
+.program-brief-container{
+  transform: translateY(-50%);
+  animation: fadeInDown-transform;
+  animation-duration: 1s;
+}
+
+.program-brief {
+  border-style: solid;
+  border-color: #00A58D;
+  border-width: thick;
+  padding: 40px;
+  background-color: rgba(256, 256, 256, 0.98);
+}
+
+.program-details {
+  padding: 20px;
+  background-color: rgba(256, 256, 256, 0.98);
+  animation: fadeInDown;
+  animation-duration: 1s;
+}
+
+.program-info-bk {
+  padding: 40px 0;
+  background-image: url("../images/Industry4.0/back.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.program-takeaway {
+  border-style: solid;
+  border-color: #00A58D;
+  border-width: thick;
+  padding: 40px;
+  background-color: rgba(256, 256, 256, 0.98);
+  transform: translateY(-50%);
+}
+
+.program-for {
+  border-style: solid;
+  border-color: #00A58D;
+  border-width: thick;
+  padding: 40px;
+  background-color: rgba(256, 256, 256, 0.98);
+  transform: translateY(-20%);
+}
+
+.program-info {
+  padding: 20px;
+  background-color: rgba(256, 256, 256, 0.80);
+  border-radius: 20px;
+}
+
+.p-list{
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.profile-photo img{
+  align-items: center;
+  margin: 10px;
+}
+
+.name {
+  margin: 10px;
+}
+
+.orgs img {
+  max-width: 130px;
+  margin: 10px;
+}
+
+.profile {
+  padding: 10px;
+}
+
+.individual {
+  display: block;
+  padding: 20px;
+  background-color: rgba(256, 256, 256, 0.80);
+  overflow: auto;
+}
+
+.fadeInDown {
+  animation: fadeInDown;
+  animation-duration: 1s;
+}
+
+.fadeInDown-transform {
+  animation: fadeInDown-transform;
+  animation-duration: 1s;
+}
+
+.institution-image {
+  margin-bottom: 30px;
+}
+
+@keyframes fadeInDown-transform {
+   0% {
+      opacity: 0;
+      transform: translateY(0);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(-50%);
+   }
+}
+
+@keyframes fadeInDown {
+   0% {
+      opacity: 0;
+      transform: translateY(50%);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
