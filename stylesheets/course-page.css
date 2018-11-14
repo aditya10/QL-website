@@ -124,7 +124,6 @@ p, li {
 .individual {
   display: block;
   padding: 20px;
-  background-color: rgba(256, 256, 256, 0.80);
   overflow: auto;
 }
 
@@ -140,6 +139,19 @@ p, li {
 
 .institution-image {
   margin-bottom: 30px;
+}
+
+.contact {
+  background-color: #c5c5c5;
+  padding: 40px 0;
+}
+
+.contact h2 {
+  margin: 5px;
+}
+
+.contact a {
+  color: #E37222;
 }
 
 @keyframes fadeInDown-transform {
